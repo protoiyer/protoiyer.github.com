@@ -4,7 +4,7 @@
   <title><![CDATA[Category: web | Protos Musings]]></title>
   <link href="http://protoiyer.github.com/blog/categories/web/atom.xml" rel="self"/>
   <link href="http://protoiyer.github.com/"/>
-  <updated>2011-11-03T02:05:54+05:30</updated>
+  <updated>2011-11-03T02:20:04+05:30</updated>
   <id>http://protoiyer.github.com/</id>
   <author>
     <name><![CDATA[protoiyer]]></name>
@@ -22,10 +22,13 @@
 
 <p>I am not going into the details of how Google fared, and what they could have done better, as many more knowledgeable people have written about that, and I will link to some of them here:</p>
 
-<p><a href="http://www.forbes.com/sites/erikkain/2011/11/02/the-google-reader-redesign-is-an-ugly-lonely-user-experience/">The Google Reader Redesign is an Ugly, Lonely User Experience</a> on Forbes
-<a href="http://regulargeek.com/2011/11/01/google-reader-changes-and-feeds-go-missing/">Google Reader Changes And Feeds Go Missing</a> by Rob Diana
-<a href="http://kirbybits.wordpress.com/2011/10/21/wherein-i-try-to-explain-why-google-reader-is-the-best-social-network-created-so-far/">Wherein I try to explain why Google Reader is the best social network created so far</a> by Courtney Stanton
-<a href="http://binarybonsai.com/2011/11/02/the-google-reader-downgrade/">The Google Reader Downgrade</a> by Michael Heilemann</p>
+<p><a href="http://www.forbes.com/sites/erikkain/2011/11/02/the-google-reader-redesign-is-an-ugly-lonely-user-experience/">The Google Reader Redesign is an Ugly, Lonely User Experience</a> on Forbes</p>
+
+<p><a href="http://regulargeek.com/2011/11/01/google-reader-changes-and-feeds-go-missing/">Google Reader Changes And Feeds Go Missing</a> by Rob Diana</p>
+
+<p><a href="http://kirbybits.wordpress.com/2011/10/21/wherein-i-try-to-explain-why-google-reader-is-the-best-social-network-created-so-far/">Wherein I try to explain why Google Reader is the best social network created so far</a> by Courtney Stanton</p>
+
+<p><a href="http://binarybonsai.com/2011/11/02/the-google-reader-downgrade/">The Google Reader Downgrade</a> by Michael Heilemann</p>
 
 <p>The biggest loss for me is the missing personal curated feed of items shared by awesome folks like <a href="http://www.google.com/reader/shared/jessestay">Jesse Stay</a>, <a href="http://www.google.com/reader/shared/robdiana">Rob Diana</a>, <a href="http://www.google.com/reader/shared/louisgray">Louis Gray</a>, <a href="http://www.google.com/reader/shared/phil.ashman">Phil Ashman</a>, and closer home, folks like <a href="http://www.google.com/reader/shared/mahendrap">Mahendra Palsule</a> and <a href="http://www.google.com/reader/shared/dhananjay.nene">Dhananjay Nene</a>, and last but not the least, my friends like <a href="http://www.google.com/reader/shared/arun.vydianathan">Arun</a> and <a href="http://www.google.com/reader/shared/pradeepcr">Pradeep</a>.</p>
 
@@ -43,9 +46,11 @@
 
 <p>And, is there any silver lining? Yes, there is. First is the hope that someone in Google would listen to what I consider to be very genuine concerns of power users like me, and second is the fact that people like Dave Winer and Francis Cleary are working on making feed reading products better or making better products!</p>
 
-<p><a href="https://plus.google.com/110805491250386698039/posts/1tUXTTE5bTE">HiveMined Update</a> by Francis Cleary
-<a href="http://www.theatlanticwire.com/technology/2011/10/sharebros-are-building-google-reader-replacement/44307/">The Sharebros Are Building a Google Reader Replacement</a> on The Atlantic Wire
-<a href="http://scripting.com/stories/2011/11/02/whatIsRwwWebActuallySaying.html">What is RWW actually saying?</a> by Dave Winer</p>
+<p><a href="https://plus.google.com/110805491250386698039/posts/1tUXTTE5bTE">HiveMined Update</a> by Francis Cleary</p>
+
+<p><a href="http://www.theatlanticwire.com/technology/2011/10/sharebros-are-building-google-reader-replacement/44307/">The Sharebros Are Building a Google Reader Replacement</a> on The Atlantic Wire</p>
+
+<p><a href="http://scripting.com/stories/2011/11/02/whatIsRwwWebActuallySaying.html">What is RWW actually saying?</a> by Dave Winer</p>
 
 <p>Indeed, may be Dave Winer was right all along about both RSS and Google! :)</p>
 ]]></content>
