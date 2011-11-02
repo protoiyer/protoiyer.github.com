@@ -4,7 +4,6 @@ title: "Google Reader redesign: the way forward"
 date: 2011-11-03 00:17
 comments: true
 author: protoiyer
-published: false
 categories: [google, reader, rss, atom, web, sharing, google+]
 ---
 
