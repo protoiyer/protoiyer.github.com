@@ -12,8 +12,11 @@ This week Google rolled out the redesign of my favorite Google product - [Google
 I am not going into the details of how Google fared, and what they could have done better, as many more knowledgeable people have written about that, and I will link to some of them here:
 
 [The Google Reader Redesign is an Ugly, Lonely User Experience](http://www.forbes.com/sites/erikkain/2011/11/02/the-google-reader-redesign-is-an-ugly-lonely-user-experience/) on Forbes
+
 [Google Reader Changes And Feeds Go Missing](http://regulargeek.com/2011/11/01/google-reader-changes-and-feeds-go-missing/) by Rob Diana
+
 [Wherein I try to explain why Google Reader is the best social network created so far](http://kirbybits.wordpress.com/2011/10/21/wherein-i-try-to-explain-why-google-reader-is-the-best-social-network-created-so-far/) by Courtney Stanton
+
 [The Google Reader Downgrade](http://binarybonsai.com/2011/11/02/the-google-reader-downgrade/) by Michael Heilemann
 
 The biggest loss for me is the missing personal curated feed of items shared by awesome folks like [Jesse Stay](http://www.google.com/reader/shared/jessestay), [Rob Diana](http://www.google.com/reader/shared/robdiana), [Louis Gray](http://www.google.com/reader/shared/louisgray), [Phil Ashman](http://www.google.com/reader/shared/phil.ashman), and closer home, folks like [Mahendra Palsule](http://www.google.com/reader/shared/mahendrap) and [Dhananjay Nene](http://www.google.com/reader/shared/dhananjay.nene), and last but not the least, my friends like [Arun](http://www.google.com/reader/shared/arun.vydianathan) and [Pradeep](http://www.google.com/reader/shared/pradeepcr). 
@@ -33,7 +36,9 @@ Of course, it would have been best if people taking decisions at Google were a b
 And, is there any silver lining? Yes, there is. First is the hope that someone in Google would listen to what I consider to be very genuine concerns of power users like me, and second is the fact that people like Dave Winer and Francis Cleary are working on making feed reading products better or making better products!
 
 [HiveMined Update](https://plus.google.com/110805491250386698039/posts/1tUXTTE5bTE) by Francis Cleary
+
 [The Sharebros Are Building a Google Reader Replacement](http://www.theatlanticwire.com/technology/2011/10/sharebros-are-building-google-reader-replacement/44307/) on The Atlantic Wire
+
 [What is RWW actually saying?](http://scripting.com/stories/2011/11/02/whatIsRwwWebActuallySaying.html) by Dave Winer
 
 Indeed, may be Dave Winer was right all along about both RSS and Google! :)
