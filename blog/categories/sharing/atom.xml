@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Protos Musings]]></title>
-  <link href="http://protoiyer.github.com/atom.xml" rel="self"/>
+  <title><![CDATA[Category: sharing | Protos Musings]]></title>
+  <link href="http://protoiyer.github.com/blog/categories/sharing/atom.xml" rel="self"/>
   <link href="http://protoiyer.github.com/"/>
   <updated>2011-11-03T02:05:54+05:30</updated>
   <id>http://protoiyer.github.com/</id>
@@ -18,7 +18,7 @@
     <link href="http://protoiyer.github.com/blog/2011/11/03/google-reader-redesign-the-way-forward/"/>
     <updated>2011-11-03T00:17:00+05:30</updated>
     <id>http://protoiyer.github.com/blog/2011/11/03/google-reader-redesign-the-way-forward</id>
-    <content type="html"><![CDATA[<p>This week Google rolled out the redesign of my favorite Google product - <a href="http://www.google.com/reader/view/">Google Reader</a>. This was a much needed face-lift, no doubt &#8211; though I am not a fan of the new UI &#8211; and more importantly, from Google&#8217;s perspective, they were integrating one more service with <a href="https://plus.google.com/">Google+</a>, the future of Google. This was supposed to make Reader more social, but ironically, in a perplexing move (at least, from the perspective of power users of Google Reader), Google ended up making Reader a less social, and a less useful product overall.</p>
+    <content type="html"><![CDATA[<p>This week Google rolled out the redesign of my favorite Google product - <a href="http://www.google.com/reader/view/">Google Reader</a>. This was a much needed face-lift, no doubt -- though I am not a fan of the new UI -- and more importantly, from Google's perspective, they were integrating one more service with <a href="https://plus.google.com/">Google+</a>, the future of Google. This was supposed to make Reader more social, but ironically, in a perplexing move (at least, from the perspective of power users of Google Reader), Google ended up making Reader a less social, and a less useful product overall.</p>
 
 <p>I am not going into the details of how Google fared, and what they could have done better, as many more knowledgeable people have written about that, and I will link to some of them here:</p>
 
@@ -29,13 +29,13 @@
 
 <p>The biggest loss for me is the missing personal curated feed of items shared by awesome folks like <a href="http://www.google.com/reader/shared/jessestay">Jesse Stay</a>, <a href="http://www.google.com/reader/shared/robdiana">Rob Diana</a>, <a href="http://www.google.com/reader/shared/louisgray">Louis Gray</a>, <a href="http://www.google.com/reader/shared/phil.ashman">Phil Ashman</a>, and closer home, folks like <a href="http://www.google.com/reader/shared/mahendrap">Mahendra Palsule</a> and <a href="http://www.google.com/reader/shared/dhananjay.nene">Dhananjay Nene</a>, and last but not the least, my friends like <a href="http://www.google.com/reader/shared/arun.vydianathan">Arun</a> and <a href="http://www.google.com/reader/shared/pradeepcr">Pradeep</a>.</p>
 
-<p>I would rather read something that is read and shared by these folks than read some item popping up the stream from some source that I follow. Why? Because, I know that these guys had taken the time out to read something and found it worthwhile to share it. Also, when I want to search for something that I had seen/read in Reader, I mostly search Google Reader first, and only if I can&#8217;t find the relevant answer, do I resort to a generic Google search.</p>
+<p>I would rather read something that is read and shared by these folks than read some item popping up the stream from some source that I follow. Why? Because, I know that these guys had taken the time out to read something and found it worthwhile to share it. Also, when I want to search for something that I had seen/read in Reader, I mostly search Google Reader first, and only if I can't find the relevant answer, do I resort to a generic Google search.</p>
 
 <p>So, what was the way forward to get back the social aspect I lost? Well, as a first step, I remembered that I read in the morning what Alex had posted about <a href="http://googlesystem.blogspot.com/2011/11/read-your-shared-items-in-google-reader.html">reclaiming your shared items</a> from inside the Reader. That was a first sigh of relief (I would have shared at least 500 items in the last 5 years and so getting that back intact was a big plus!). It then struck me that I can now recreate the shared items from the people I was following using the same technique.</p>
 
-<p>For that, I had to first get hold of the list of people I used to follow. One can get that from &#8220;Settings | Import/Export&#8221; tab in the Reader, and from there I downloaded the JSON for the list of people that I follow. Though it contained some 50 names, only 10-20 were very important for me (those were the people who were into active reading and sharing on Reader).</p>
+<p>For that, I had to first get hold of the list of people I used to follow. One can get that from "Settings | Import/Export" tab in the Reader, and from there I downloaded the JSON for the list of people that I follow. Though it contained some 50 names, only 10-20 were very important for me (those were the people who were into active reading and sharing on Reader).</p>
 
-<p>I subscribed to their &#8220;thus-far&#8221; shared items (so that I can still do meaningful searches from within the Reader). Next, thanks to the suggestion from Phil, I followed the <a href="https://plus.google.com/110371866564374610674/posts/7YKJZjShCUF">steps outlined by Tony Scelfo</a> and ran the script he provided, that parsed the JSON and opened up Google+ profile for each of the users in the JSON. Yes, that opened about 50 tabs for me, and I had to close about 30, but I ended up with the 20 people whom I want to follow for their &#8220;shared&#8221; items. I added each of them to a new Google+ circle that I called &#8220;greader&#8221;.</p>
+<p>I subscribed to their "thus-far" shared items (so that I can still do meaningful searches from within the Reader). Next, thanks to the suggestion from Phil, I followed the <a href="https://plus.google.com/110371866564374610674/posts/7YKJZjShCUF">steps outlined by Tony Scelfo</a> and ran the script he provided, that parsed the JSON and opened up Google+ profile for each of the users in the JSON. Yes, that opened about 50 tabs for me, and I had to close about 30, but I ended up with the 20 people whom I want to follow for their "shared" items. I added each of them to a new Google+ circle that I called "greader".</p>
 
 <p>Yes, most of them will not use Google Reader for sharing any more (or with the same intensity) as before, but at least I can easily keep abreast of both what they shared earlier, and what they choose to share publicly on Google+ from now on.</p>
 
