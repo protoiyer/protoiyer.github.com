@@ -35,6 +35,7 @@ I will leave you with a few more great articles, some of which came out on the o
 
 [Tim O'Reilly on 20 years of Vim](https://plus.google.com/107033731246200681024/posts/aZSZCsAcHbH)
 
+And last, but not the least, this awesome, inspiring story about how Mark O’Connor programs using just an iPad hooked to the cloud: [I swapped my MacBook for an iPad+Linode](http://yieldthought.com/post/12239282034/swapped-my-macbook-for-an-ipad)
 
 Happy 20th birthday, Vim!
 
