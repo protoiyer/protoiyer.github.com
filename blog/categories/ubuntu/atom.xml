@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: ubuntu | Protos Musings]]></title>
+  <link href="http://protoiyer.github.com/blog/categories/ubuntu/atom.xml" rel="self"/>
+  <link href="http://protoiyer.github.com/"/>
+  <updated>2012-05-03T01:32:22+05:30</updated>
+  <id>http://protoiyer.github.com/</id>
+  <author>
+    <name><![CDATA[protoiyer]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Setting up my Linux box and Ruby on Rails - Ubuntu 12.04 edition]]></title>
+    <link href="http://protoiyer.github.com/blog/2012/05/02/setting-up-my-linux-box-and-ruby-on-rails-ubuntu-12-dot-04-edition/"/>
+    <updated>2012-05-02T22:12:00+05:30</updated>
+    <id>http://protoiyer.github.com/blog/2012/05/02/setting-up-my-linux-box-and-ruby-on-rails-ubuntu-12-dot-04-edition</id>
+    <content type="html"><![CDATA[<p>About an year back, I had <a href="http://protoiyer.posterous.com/setting-up-my-linux-box-and-ruby-on-rails-dev">posted in depth</a> about my love for Ruby, and how I set up my Linux box on Ubuntu 10.10, including how to set up Ruby on Rails in that environment.</p>
+
+<p>Well the time has come for an update for <a href="http://www.ubuntu.com/">Ubuntu</a> <a href="http://releases.ubuntu.com/precise/">12.04 LTS</a> that came out during the last week of April.</p>
+
+<p>Since I had written that previous post in such detail, I will just jot down the steps in this one. This is more for my reference, but may be it will be of use to someone as well. Also, that post came in quite handy during the current setup and so I hope I would refer back to this one as well in future.</p>
+
+<p>I was on Ubuntu 10.10, whose <a href="http://goo.gl/fIfI3">support came to an end </a> during April and I was looking forward to the final release version of 12.04 ever since.</p>
+
+<p>Now, there were only two ways to upgrade -- from 10.10 to 11.04, then to 11.10, and finally to 12.04. Or, take backups, take a deep breath, and wipe your disk clean and install 12.04. I chose the later path since the former sounded a terrible idea. Also, interestingly had I been on 10.10 (another LTS version), I could have directly upgraded to 12.04 (which is again an LTS version). So, a good lesson learned there -- I will think twice before upgrading to non-LTS versions from here on.</p>
+
+<p>So, here I had a blank machine one more time, and this time too I decided to jot down the things I had to do to get the machine to a state that I would be happy about. I am a bit finicky about things like colors and fonts.</p>
+
+<p>Compared to the 10.10 days, there are some changes - some of the apps now come pre-installed (Firefox 12.0) or is no longer supported on Linux (Picasa)</p>
+
+<p>So, once the OS is installed, here are the things I did:</p>
+
+<h1>Basic Machine Set Up</h1>
+
+<p>A. Installing my favorite fonts</p>
+
+<p>  <a href="http://kevin.vanzonneveld.net/techblog/article/install_the_best_coding_font/">Inconsolata</a></p>
+
+<pre><code>sudo apt-get install ttf-inconsolata
+</code></pre>
+
+<p>  <a href="http://goo.gl/Hhbxg">Inconsolata-dz</a>, an even better looking Inconsolata</p>
+
+<p>  <a href="http://goo.gl/R54Mp">Inconsolata-g</a>, another derivative of Inconsolata though I prefer the dz version more.</p>
+
+<p>  Droid family of fonts, designed by Google for Android phones</p>
+
+<pre><code>sudo apt-get install ttf-droid
+</code></pre>
+
+<p>B. Configure gEdit</p>
+
+<p>  enable</p>
+
+<pre><code>View
+  Display line numbers
+Editor
+  Tab Stops
+    Tab width: 2
+    Insert spaces instead of tabs
+  Automatic indentation
+    Enable automatic indentation
+Font
+  Remove "Use the system fixed width font"
+  select "Inconsolata 11" as font
+Color Scheme
+  Oblivion
+... # and so on 
+</code></pre>
+
+<p>C. Configure Nautilus</p>
+
+<p>  View</p>
+
+<pre><code>Default view Compact
+Arrange Items by Modification Date
+Zoom 50%
+... 
+</code></pre>
+
+<p>D. Configure Terminal</p>
+
+<p>  General</p>
+
+<pre><code>"Inconsolata 11" as font
+Color: White on black  
+</code></pre>
+
+<p>E. Install <a href="http://www.chromium.org/getting-involved/dev-channel">Chrome Dev Channel</a></p>
+
+<p>  Thankfully Chrome remembers all my settings and plugins and so this was pretty hassle free. The only setting I remembered doing was to set the font to Droid.</p>
+
+<p>  Of course, Chrome doesn't remember any userscripts that you installed, and so I had to reinsall the following userscripts:</p>
+
+<p>  <a href="http://userscripts.org/scripts/show/116888">Google Reader - Even More Compact Design (Nov 2011)</a>
+  <a href="http://userscripts.org/scripts/show/76653">O'Reilly Safari Minimalist Tweaked</a>
+  <a href="http://userscripts.org/scripts/show/114455">Resurrect Google Cache &amp; Related links</a>
+  <a href="http://userscripts.org/scripts/show/106671">Google Plus Right Side Bar Remover</a></p>
+
+<p>F. Install aptitude</p>
+
+<p>  This would come in handy to install stuff that needs aptitude rather than the default apt-get package manager.</p>
+
+<pre><code>sudo apt-get install aptitude
+</code></pre>
+
+<p>G. Install Pinta (equivalent of Paint.net)</p>
+
+<p>  I am someone who takes a number of screenshots in a month for various things, and so not having the equivalent of Paint is not acceptable. I usually crop the screenshots and so I need a decent, basic editor. Enter <a href="http://www.ubuntugeek.com/pinta-paint-net-clone-for-linux.html#more-4476">Pinta</a></p>
+
+<pre><code>sudo add-apt-repository ppa:moonlight-team/pinta
+sudo apt-get update
+sudo aptitude install pinta
+</code></pre>
+
+<p>H. Configure Reliance NetConnect</p>
+
+<p>  Unfortunately, my Reliance Netconnect just doesn't work with the out-of-the-box method (of adding a new mobile network connection), and what works is the steps outlined by Harbhag at his blog: <a href="http://goo.gl/0mxqM">Reliance Netconnect Broadband+ on Ubuntu</a></p>
+
+<p>O. Further tips and tricks to customize Ubuntu</p>
+
+<p>  Refer <a href="http://goo.gl/IFCX3">any</a> <a href="http://goo.gl/kevrX">of</a> <a href="http://goo.gl/WF111">these</a> <a href="http://goo.gl/0ujkA">awesome</a> resources or google for more.</p>
+
+<h1>Developer tools and other tools Setup</h1>
+
+<p>A. Install LAMP via instructions at <a href="http://goo.gl/nfzPH">Installing LAMP on Ubuntu 12.04 Precise Pangolin</a> Like last time, I stopped short of installing phpAdmin which is mentioned at the end.</p>
+
+<p>B. Install vim</p>
+
+<p>  I have become a big fan of both terminal vim over the last year, and this time decided to compile and install vim with ruby support. I followed the <a href="http://goo.gl/ELSa4">steps outlined in this post</a>, including installing mercurial to clone the vim source code. Of course I used Ruby 1.9.3 on Ubuntu 12.04, but other than that the steps outlined in that post works. Of course, I still can't get Command-T to work on my box, and that is something I will have to check one of these days.</p>
+
+<p>  I ended up installing version 7.3.509, which was the latest version available while I was installing.</p>
+
+<p>  For Vim plugin management, this time I decided to do away with my manual style, and was almost going to use the highly rated <a href="https://github.com/tpope/vim-pathogen">Pathogen</a> plugin. But googling revelaed an even simpler (dare I say better) way of doing that using <a href="https://github.com/gmarik/vundle">Vundle</a>.</p>
+
+<p>  For more on Vundle, do read <a href="http://goo.gl/8honf">these</a> <a href="http://goo.gl/lwDkf">two</a> posts. I assure you it is worth your time!</p>
+
+<p>++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++</p>
+
+<p>  Note: From here on, the installation process was done based on a bunch of resources:</p>
+
+<ol>
+<li><p><a href="http://arunsark.wordpress.com/2011/02/25/installing-ror-in-ubuntu/">Installing RoR in Ubuntu</a> by my good friend and colleague, <a href="http://twitter.com/arunsark">Arun Vydianathan</a></p></li>
+<li><p>The excellent and free <a href="http://ruby.railstutorial.org/ruby-on-rails-tutorial-book#sec:up_and_running">Ruby on Rails Tutorial book</a></p></li>
+<li><p>Of course my previous post :)</p></li>
+</ol>
+
+
+<p>++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++</p>
+
+<p>C. Install git</p>
+
+<p>  sudo apt-get install git-core</p>
+
+<p>D. Set up tab completion for git</p>
+
+<p>  I had backed up the file "contrib/completion/git-completion.bash" and so this was pretty painless - I just had to copy the file into my home (~) folder.</p>
+
+<pre><code>$ cd folder/having/git-completion.bash
+$ cp contrib/completion/git-completion.bash ~
+
+# Open the .bashrc file for editing
+$ gvim ~/.bashrc 
+
+# NOW, Paste the contents from [this Rails tutorial page](http://ruby.railstutorial.org/bashrc) into the file.
+
+# NEXT, run the following to source the bashrc file.
+$ . ~/.bashrc
+</code></pre>
+
+<p>  If you don't have that file, you might have to download the latest git source. Please refer my previous installation post for more on this.</p>
+
+<p>E. Install curl</p>
+
+<p>  sudo apt-get install curl</p>
+
+<p>F. Install Ruby Version Manager (RVM)</p>
+
+<p>  Refer the <a href="https://rvm.beginrescueend.com/rvm/install/">RVM installation page</a> and follow along.</p>
+
+<p>G. Install Ruby</p>
+
+<p>  rvm install 1.9.3</p>
+
+<p>  Create the required <a href="https://rvm.io/gemsets/">rvm gemsets</a> as per your requirement.</p>
+
+<p>H. Install the latest version of Rails</p>
+
+<p>  gem install rails</p>
+
+<p>  If you run into the strange bundle-install-fails-on-every-gem issue due to handshake problem (Gem::RemoteFetcher::FetchError), please refer either of these <a href="http://goo.gl/oW0ev">two</a> <a href="http://goo.gl/PGcJF">posts</a> for a solution.</p>
+
+<p>  To complete the set up of Rails development environment along with the required test setup and deployment (using heroku) environment, refer to the excellent <a href="http://ruby.railstutorial.org/">Ruby on Rails Tutorial</a>, chapters 1 and 3. Chapter 2 is about using scaffold to create a sample app, and doesn't add any value towards our current goal: setting up the environments.</p>
+
+<p>I. Install the databases</p>
+
+<p>  If you had followed along from the top (referring to the different sources, you would have already installed both mysql and sqlite3). If you haven't, please refer the "Databases" step of <a href="http://appogee.posterous.com/ubuntu-1010-ruby-on-rails-setup">this post</a>.</p>
+
+<p>  For me, what is left to do is to install postgresql</p>
+
+<p>  # Install postgresql and deps</p>
+
+<pre><code>sudo apt-get install postgresql libpq-dev
+gem install pg 
+</code></pre>
+
+<p>  Of course, you would then have to then try to log into the postgresql db server, create the required users/roles etc. Google if you don't how to do it.</p>
+
+<p>J. Install "Open Terminal [Command-Prompt] Here"</p>
+
+<p>  This allows you to open a terminal from any path in the file manager Nautilus, and for me it is an indispensable tool. From <a href="http://superuser.com/questions/166407/how-to-open-a-menu-with-open-terminal-here-in-ubuntu-10-04-by-left-clicking-des">this SuperUser thread</a>:
+  sudo apt-get install nautilus-open-terminal</p>
+
+<p>K. Install tmux</p>
+
+<p>  <a href="http://tmux.sourceforge.net/">Tmux</a> is a terminal multiplexer and ensures that every time I open it I have all the windows I need (multiple terminals, rails server, rails console, rails db server and so on) are up and running.</p>
+
+<p>  Here are <a href="http://goo.gl/Mr8tD">some</a> <a href="http://goo.gl/OFjS0">references</a> <a href="http://goo.gl/2lirZ">and a book</a> that would be useful to get started.</p>
+
+<p>  Of course, to make it even more easier, I use the <a href="https://github.com/aziz/tmuxinator">Tmuxinator gem</a>:</p>
+
+<pre><code>gem install tmuxinator
+</code></pre>
+
+<p>L. Install the indicator-weather applet</p>
+
+<p>  sudo apt-get install indicator-weather</p>
+
+<p>M. Install Ack, which is of course better than grep</p>
+
+<p>  sudo apt-get install ack-grep</p>
+
+<p>N. Install Kazam for recoring videos for screencasts.</p>
+
+<p>  sudo add-apt-repository ppa:kazam-team/stable-series
+  sudo apt-get install kazam</p>
+
+<p>O. Install xsane for the scanner</p>
+
+<p>  sudo apt-get install xsane</p>
+
+<p>P. Install VLC player</p>
+
+<p>  sudo apt-get install vlc vlc-plugin-pulse</p>
+
+<p>Q. Install lo-menubar to make LibreOffice play nicely with Unity</p>
+
+<p>  sudo apt-get install lo-menubar</p>
+
+<p>R. Install Nautilus Image converter to have a quick option to resize images from Nautilus</p>
+
+<p>  sudo apt-get install nautilus-image-converter</p>
+
+<p>S. Install xclip to use the clipboard from the commandline</p>
+
+<p>  sudo apt-get install xclip</p>
+
+<p>T. Install ImageMagick</p>
+
+<p>  sudo apt-get install libqt4-dev
+  sudo apt-get install libmagick libmagickcore-dev
+  sudo apt-get install libmagickwand-dev</p>
+
+<p>U. Install Exuberant Ctags (for Vim)</p>
+
+<p>  sudo apt-get install exuberant-ctags</p>
+
+<p>V. Install MyUnity to tweak Ubuntu.</p>
+
+<p>  sudo apt-get install myunity</p>
+
+<p>  The best part for me is that I can easily tweak the unity launcher bar from this.</p>
+
+<p>W. Install Ubuntu Tweak to tweak Ubuntu.</p>
+
+<p>  Can be downloaded from <a href="http://ubuntu-tweak.com/">http://ubuntu-tweak.com/</a></p>
+
+<p>X. Install Compiz Config Settings Manager</p>
+
+<p>  sudo apt-get install compizconfig-settings-manager</p>
+
+<p>  This allows me to continue to use the Super(Windows key)+N combination to invert the monitor colors - an indispensable tool for reading using the browser.</p>
+
+<p>=================</p>
+
+<p>  Of course, my ideas about what constitutes my preferred configuration is bound to change over time, and so would the tools required to do the job. If I come across something great, I will try to update this post with that info.</p>
+
+<p>Thanks for reading and I hope at least some of it would have been useful for you.</p>
+]]></content>
+  </entry>
+  
+</feed>
