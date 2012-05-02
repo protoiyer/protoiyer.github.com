@@ -4,7 +4,7 @@
   <title><![CDATA[Protos Musings]]></title>
   <link href="http://protoiyer.github.com/atom.xml" rel="self"/>
   <link href="http://protoiyer.github.com/"/>
-  <updated>2012-05-03T01:32:22+05:30</updated>
+  <updated>2012-05-03T02:13:45+05:30</updated>
   <id>http://protoiyer.github.com/</id>
   <author>
     <name><![CDATA[protoiyer]]></name>
@@ -38,57 +38,89 @@
 
 <p>A. Installing my favorite fonts</p>
 
-<p>  <a href="http://kevin.vanzonneveld.net/techblog/article/install_the_best_coding_font/">Inconsolata</a></p>
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>[Inconsolata](http://kevin.vanzonneveld.net/techblog/article/install_the_best_coding_font/)
+</span><span class='line'>  sudo apt-get install ttf-inconsolata
+</span><span class='line'>
+</span><span class='line'>[Inconsolata-dz](http://goo.gl/Hhbxg), an even better looking Inconsolata
+</span><span class='line'>
+</span><span class='line'>[Inconsolata-g](http://goo.gl/R54Mp), another derivative of Inconsolata though I prefer the dz version more.
+</span><span class='line'>
+</span><span class='line'>Droid family of fonts, designed by Google for Android phones
+</span><span class='line'>  sudo apt-get install ttf-droid</span></code></pre></td></tr></table></div></figure>
 
-<pre><code>sudo apt-get install ttf-inconsolata
-</code></pre>
-
-<p>  <a href="http://goo.gl/Hhbxg">Inconsolata-dz</a>, an even better looking Inconsolata</p>
-
-<p>  <a href="http://goo.gl/R54Mp">Inconsolata-g</a>, another derivative of Inconsolata though I prefer the dz version more.</p>
-
-<p>  Droid family of fonts, designed by Google for Android phones</p>
-
-<pre><code>sudo apt-get install ttf-droid
-</code></pre>
 
 <p>B. Configure gEdit</p>
 
-<p>  enable</p>
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+<span class='line-number'>13</span>
+<span class='line-number'>14</span>
+<span class='line-number'>15</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>enable
+</span><span class='line'>  View
+</span><span class='line'>    Display line numbers
+</span><span class='line'>  Editor
+</span><span class='line'>    Tab Stops
+</span><span class='line'>      Tab width: 2
+</span><span class='line'>      Insert spaces instead of tabs
+</span><span class='line'>    Automatic indentation
+</span><span class='line'>      Enable automatic indentation
+</span><span class='line'>  Font
+</span><span class='line'>    Remove "Use the system fixed width font"
+</span><span class='line'>    select "Inconsolata 11" as font
+</span><span class='line'>  Color Scheme
+</span><span class='line'>    Oblivion
+</span><span class='line'>  ... # and so on </span></code></pre></td></tr></table></div></figure>
 
-<pre><code>View
-  Display line numbers
-Editor
-  Tab Stops
-    Tab width: 2
-    Insert spaces instead of tabs
-  Automatic indentation
-    Enable automatic indentation
-Font
-  Remove "Use the system fixed width font"
-  select "Inconsolata 11" as font
-Color Scheme
-  Oblivion
-... # and so on 
-</code></pre>
+
+<p></p>
 
 <p>C. Configure Nautilus</p>
 
-<p>  View</p>
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>View
+</span><span class='line'>  Default view Compact
+</span><span class='line'>  Arrange Items by Modification Date
+</span><span class='line'>  Zoom 50%
+</span><span class='line'>  ... </span></code></pre></td></tr></table></div></figure>
 
-<pre><code>Default view Compact
-Arrange Items by Modification Date
-Zoom 50%
-... 
-</code></pre>
+
+<p></p>
 
 <p>D. Configure Terminal</p>
 
-<p>  General</p>
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>General tab
+</span><span class='line'>"Inconsolata 11" as font
+</span><span class='line'>Color: White on black  </span></code></pre></td></tr></table></div></figure>
 
-<pre><code>"Inconsolata 11" as font
-Color: White on black  
-</code></pre>
+
+<p></p>
 
 <p>E. Install <a href="http://www.chromium.org/getting-involved/dev-channel">Chrome Dev Channel</a></p>
 
@@ -96,26 +128,41 @@ Color: White on black
 
 <p>  Of course, Chrome doesn&#8217;t remember any userscripts that you installed, and so I had to reinsall the following userscripts:</p>
 
-<p>  <a href="http://userscripts.org/scripts/show/116888">Google Reader - Even More Compact Design (Nov 2011)</a>
-  <a href="http://userscripts.org/scripts/show/76653">O&#8217;Reilly Safari Minimalist Tweaked</a>
-  <a href="http://userscripts.org/scripts/show/114455">Resurrect Google Cache &amp; Related links</a>
-  <a href="http://userscripts.org/scripts/show/106671">Google Plus Right Side Bar Remover</a></p>
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>[Google Reader - Even More Compact Design (Nov 2011)](http://userscripts.org/scripts/show/116888)
+</span><span class='line'>[O'Reilly Safari Minimalist Tweaked](http://userscripts.org/scripts/show/76653)
+</span><span class='line'>[Resurrect Google Cache & Related links](http://userscripts.org/scripts/show/114455)
+</span><span class='line'>[Google Plus Right Side Bar Remover](http://userscripts.org/scripts/show/106671)</span></code></pre></td></tr></table></div></figure>
+
+
+<p></p>
 
 <p>F. Install aptitude</p>
 
 <p>  This would come in handy to install stuff that needs aptitude rather than the default apt-get package manager.</p>
 
-<pre><code>sudo apt-get install aptitude
-</code></pre>
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>sudo apt-get install aptitude</span></code></pre></td></tr></table></div></figure>
+
+
+<p></p>
 
 <p>G. Install Pinta (equivalent of Paint.net)</p>
 
 <p>  I am someone who takes a number of screenshots in a month for various things, and so not having the equivalent of Paint is not acceptable. I usually crop the screenshots and so I need a decent, basic editor. Enter <a href="http://www.ubuntugeek.com/pinta-paint-net-clone-for-linux.html#more-4476">Pinta</a></p>
 
-<pre><code>sudo add-apt-repository ppa:moonlight-team/pinta
-sudo apt-get update
-sudo aptitude install pinta
-</code></pre>
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>sudo add-apt-repository ppa:moonlight-team/pinta
+</span><span class='line'>sudo apt-get update
+</span><span class='line'>sudo aptitude install pinta</span></code></pre></td></tr></table></div></figure>
+
+
+<p></p>
 
 <p>H. Configure Reliance NetConnect</p>
 
@@ -143,40 +190,59 @@ sudo aptitude install pinta
 
 <p>  Note: From here on, the installation process was done based on a bunch of resources:</p>
 
-<ol>
-<li><p><a href="http://arunsark.wordpress.com/2011/02/25/installing-ror-in-ubuntu/">Installing RoR in Ubuntu</a> by my good friend and colleague, <a href="http://twitter.com/arunsark">Arun Vydianathan</a></p></li>
-<li><p>The excellent and free <a href="http://ruby.railstutorial.org/ruby-on-rails-tutorial-book#sec:up_and_running">Ruby on Rails Tutorial book</a></p></li>
-<li><p>Of course my previous post :)</p></li>
-</ol>
+<p>  <a href="http://arunsark.wordpress.com/2011/02/25/installing-ror-in-ubuntu/">Installing RoR in Ubuntu</a> by my good friend and colleague, <a href="http://twitter.com/arunsark">Arun Vydianathan</a></p>
 
+<p>  The excellent and free <a href="http://ruby.railstutorial.org/ruby-on-rails-tutorial-book#sec:up_and_running">Ruby on Rails Tutorial book</a></p>
+
+<p>  Of course my previous post :)</p>
 
 <p>++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++</p>
 
 <p>C. Install git</p>
 
-<p>  sudo apt-get install git-core</p>
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>sudo apt-get install git-core</span></code></pre></td></tr></table></div></figure>
+
+
+<p></p>
 
 <p>D. Set up tab completion for git</p>
 
 <p>  I had backed up the file &#8220;contrib/completion/git-completion.bash&#8221; and so this was pretty painless - I just had to copy the file into my home (~) folder.</p>
 
-<pre><code>$ cd folder/having/git-completion.bash
-$ cp contrib/completion/git-completion.bash ~
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>$ cd folder/having/git-completion.bash
+</span><span class='line'>$ cp contrib/completion/git-completion.bash ~
+</span><span class='line'>
+</span><span class='line'># Open the .bashrc file for editing
+</span><span class='line'>$ gvim ~/.bashrc 
+</span><span class='line'>
+</span><span class='line'># NOW, Paste the contents from [this Rails tutorial page](http://ruby.railstutorial.org/bashrc) into the file.
+</span><span class='line'>
+</span><span class='line'># NEXT, run the following to source the bashrc file.
+</span><span class='line'>$ . ~/.bashrc</span></code></pre></td></tr></table></div></figure>
 
-# Open the .bashrc file for editing
-$ gvim ~/.bashrc 
 
-# NOW, Paste the contents from [this Rails tutorial page](http://ruby.railstutorial.org/bashrc) into the file.
-
-# NEXT, run the following to source the bashrc file.
-$ . ~/.bashrc
-</code></pre>
+<p></p>
 
 <p>  If you don&#8217;t have that file, you might have to download the latest git source. Please refer my previous installation post for more on this.</p>
 
 <p>E. Install curl</p>
 
-<p>  sudo apt-get install curl</p>
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>sudo apt-get install curl</span></code></pre></td></tr></table></div></figure>
+
+
+<p></p>
 
 <p>F. Install Ruby Version Manager (RVM)</p>
 
@@ -184,13 +250,21 @@ $ . ~/.bashrc
 
 <p>G. Install Ruby</p>
 
-<p>  rvm install 1.9.3</p>
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>rvm install 1.9.3 </span></code></pre></td></tr></table></div></figure>
+
+
+<p></p>
 
 <p>  Create the required <a href="https://rvm.io/gemsets/">rvm gemsets</a> as per your requirement.</p>
 
 <p>H. Install the latest version of Rails</p>
 
-<p>  gem install rails</p>
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>gem install rails</span></code></pre></td></tr></table></div></figure>
+
+
+<p></p>
 
 <p>  If you run into the strange bundle-install-fails-on-every-gem issue due to handshake problem (Gem::RemoteFetcher::FetchError), please refer either of these <a href="http://goo.gl/oW0ev">two</a> <a href="http://goo.gl/PGcJF">posts</a> for a solution.</p>
 
@@ -202,18 +276,27 @@ $ . ~/.bashrc
 
 <p>  For me, what is left to do is to install postgresql</p>
 
-<p>  # Install postgresql and deps</p>
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'># Install postgresql and deps
+</span><span class='line'>sudo apt-get install postgresql libpq-dev
+</span><span class='line'>gem install pg </span></code></pre></td></tr></table></div></figure>
 
-<pre><code>sudo apt-get install postgresql libpq-dev
-gem install pg 
-</code></pre>
+
+<p></p>
 
 <p>  Of course, you would then have to then try to log into the postgresql db server, create the required users/roles etc. Google if you don&#8217;t how to do it.</p>
 
 <p>J. Install &#8220;Open Terminal [Command-Prompt] Here&#8221;</p>
 
-<p>  This allows you to open a terminal from any path in the file manager Nautilus, and for me it is an indispensable tool. From <a href="http://superuser.com/questions/166407/how-to-open-a-menu-with-open-terminal-here-in-ubuntu-10-04-by-left-clicking-des">this SuperUser thread</a>:
-  sudo apt-get install nautilus-open-terminal</p>
+<p>  This allows you to open a terminal from any path in the file manager Nautilus, and for me it is an indispensable tool. From <a href="http://superuser.com/questions/166407/how-to-open-a-menu-with-open-terminal-here-in-ubuntu-10-04-by-left-clicking-des">this SuperUser thread</a>:</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>sudo apt-get install nautilus-open-terminal</span></code></pre></td></tr></table></div></figure>
+
+
+<p></p>
 
 <p>K. Install tmux</p>
 
@@ -221,57 +304,115 @@ gem install pg
 
 <p>  Here are <a href="http://goo.gl/Mr8tD">some</a> <a href="http://goo.gl/OFjS0">references</a> <a href="http://goo.gl/2lirZ">and a book</a> that would be useful to get started.</p>
 
-<p>  Of course, to make it even more easier, I use the <a href="https://github.com/aziz/tmuxinator">Tmuxinator gem</a>:</p>
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>sudo apt-get install tmux</span></code></pre></td></tr></table></div></figure>
 
-<pre><code>gem install tmuxinator
-</code></pre>
+
+<p></p>
+
+<p>  Since the apt-get repository had an old version, I downloaded and compiled the source. But the above should get you started.</p>
+
+<p>  Of course, to make it even more easier, I use the <a href="https://github.com/aziz/tmuxinator">Tmuxinator gem</a> as well:</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>gem install tmuxinator</span></code></pre></td></tr></table></div></figure>
+
+
+<p></p>
 
 <p>L. Install the indicator-weather applet</p>
 
-<p>  sudo apt-get install indicator-weather</p>
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>sudo apt-get install indicator-weather</span></code></pre></td></tr></table></div></figure>
+
+
+<p></p>
 
 <p>M. Install Ack, which is of course better than grep</p>
 
-<p>  sudo apt-get install ack-grep</p>
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>sudo apt-get install ack-grep</span></code></pre></td></tr></table></div></figure>
+
+
+<p></p>
 
 <p>N. Install Kazam for recoring videos for screencasts.</p>
 
-<p>  sudo add-apt-repository ppa:kazam-team/stable-series
-  sudo apt-get install kazam</p>
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>sudo add-apt-repository ppa:kazam-team/stable-series
+</span><span class='line'>sudo apt-get install kazam</span></code></pre></td></tr></table></div></figure>
+
+
+<p></p>
 
 <p>O. Install xsane for the scanner</p>
 
-<p>  sudo apt-get install xsane</p>
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>sudo apt-get install xsane</span></code></pre></td></tr></table></div></figure>
+
+
+<p></p>
 
 <p>P. Install VLC player</p>
 
-<p>  sudo apt-get install vlc vlc-plugin-pulse</p>
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>sudo apt-get install vlc vlc-plugin-pulse</span></code></pre></td></tr></table></div></figure>
+
+
+<p></p>
 
 <p>Q. Install lo-menubar to make LibreOffice play nicely with Unity</p>
 
-<p>  sudo apt-get install lo-menubar</p>
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>sudo apt-get install lo-menubar</span></code></pre></td></tr></table></div></figure>
+
+
+<p></p>
 
 <p>R. Install Nautilus Image converter to have a quick option to resize images from Nautilus</p>
 
-<p>  sudo apt-get install nautilus-image-converter</p>
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>sudo apt-get install nautilus-image-converter</span></code></pre></td></tr></table></div></figure>
+
+
+<p></p>
 
 <p>S. Install xclip to use the clipboard from the commandline</p>
 
-<p>  sudo apt-get install xclip</p>
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>sudo apt-get install xclip</span></code></pre></td></tr></table></div></figure>
+
+
+<p></p>
 
 <p>T. Install ImageMagick</p>
 
-<p>  sudo apt-get install libqt4-dev
-  sudo apt-get install libmagick libmagickcore-dev
-  sudo apt-get install libmagickwand-dev</p>
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>sudo apt-get install libqt4-dev
+</span><span class='line'>sudo apt-get install libmagick libmagickcore-dev
+</span><span class='line'>sudo apt-get install libmagickwand-dev</span></code></pre></td></tr></table></div></figure>
+
+
+<p></p>
 
 <p>U. Install Exuberant Ctags (for Vim)</p>
 
-<p>  sudo apt-get install exuberant-ctags</p>
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>sudo apt-get install exuberant-ctags</span></code></pre></td></tr></table></div></figure>
+
+
+<p></p>
 
 <p>V. Install MyUnity to tweak Ubuntu.</p>
 
-<p>  sudo apt-get install myunity</p>
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>sudo apt-get install myunity</span></code></pre></td></tr></table></div></figure>
+
+
+<p></p>
 
 <p>  The best part for me is that I can easily tweak the unity launcher bar from this.</p>
 
@@ -281,7 +422,11 @@ gem install pg
 
 <p>X. Install Compiz Config Settings Manager</p>
 
-<p>  sudo apt-get install compizconfig-settings-manager</p>
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>sudo apt-get install compizconfig-settings-manager</span></code></pre></td></tr></table></div></figure>
+
+
+<p></p>
 
 <p>  This allows me to continue to use the Super(Windows key)+N combination to invert the monitor colors - an indispensable tool for reading using the browser.</p>
 
@@ -290,6 +435,8 @@ gem install pg
 <p>  Of course, my ideas about what constitutes my preferred configuration is bound to change over time, and so would the tools required to do the job. If I come across something great, I will try to update this post with that info.</p>
 
 <p>Thanks for reading and I hope at least some of it would have been useful for you.</p>
+
+<p>Update Thu, 03-May-11: Cleaned up the code snippets&#8217; layout.</p>
 ]]></content>
   </entry>
   

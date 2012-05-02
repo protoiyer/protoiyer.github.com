@@ -4,7 +4,7 @@
   <title><![CDATA[Category: ruby | Protos Musings]]></title>
   <link href="http://protoiyer.github.com/blog/categories/ruby/atom.xml" rel="self"/>
   <link href="http://protoiyer.github.com/"/>
-  <updated>2012-05-03T01:32:22+05:30</updated>
+  <updated>2012-05-03T02:13:45+05:30</updated>
   <id>http://protoiyer.github.com/</id>
   <author>
     <name><![CDATA[protoiyer]]></name>
@@ -38,57 +38,67 @@
 
 <p>A. Installing my favorite fonts</p>
 
-<p>  <a href="http://kevin.vanzonneveld.net/techblog/article/install_the_best_coding_font/">Inconsolata</a></p>
+<p>```<br/>
+<a href="http://kevin.vanzonneveld.net/techblog/article/install_the_best_coding_font/">Inconsolata</a>
+  sudo apt-get install ttf-inconsolata</p>
 
-<pre><code>sudo apt-get install ttf-inconsolata
-</code></pre>
+<p><a href="http://goo.gl/Hhbxg">Inconsolata-dz</a>, an even better looking Inconsolata</p>
 
-<p>  <a href="http://goo.gl/Hhbxg">Inconsolata-dz</a>, an even better looking Inconsolata</p>
+<p><a href="http://goo.gl/R54Mp">Inconsolata-g</a>, another derivative of Inconsolata though I prefer the dz version more.</p>
 
-<p>  <a href="http://goo.gl/R54Mp">Inconsolata-g</a>, another derivative of Inconsolata though I prefer the dz version more.</p>
-
-<p>  Droid family of fonts, designed by Google for Android phones</p>
-
-<pre><code>sudo apt-get install ttf-droid
-</code></pre>
+<p>Droid family of fonts, designed by Google for Android phones
+  sudo apt-get install ttf-droid
+```</p>
 
 <p>B. Configure gEdit</p>
 
-<p>  enable</p>
+<p>```<br/>
+enable
+  View</p>
 
-<pre><code>View
-  Display line numbers
-Editor
-  Tab Stops
-    Tab width: 2
-    Insert spaces instead of tabs
-  Automatic indentation
-    Enable automatic indentation
-Font
-  Remove "Use the system fixed width font"
-  select "Inconsolata 11" as font
-Color Scheme
-  Oblivion
-... # and so on 
+<pre><code>Display line numbers
 </code></pre>
+
+<p>  Editor</p>
+
+<pre><code>Tab Stops
+  Tab width: 2
+  Insert spaces instead of tabs
+Automatic indentation
+  Enable automatic indentation
+</code></pre>
+
+<p>  Font</p>
+
+<pre><code>Remove "Use the system fixed width font"
+select "Inconsolata 11" as font
+</code></pre>
+
+<p>  Color Scheme</p>
+
+<pre><code>Oblivion
+</code></pre>
+
+<p>  ... # and so on
+```</p>
 
 <p>C. Configure Nautilus</p>
 
-<p>  View</p>
-
-<pre><code>Default view Compact
-Arrange Items by Modification Date
-Zoom 50%
-... 
-</code></pre>
+<p><code>  
+View
+  Default view Compact
+  Arrange Items by Modification Date
+  Zoom 50%
+  ...
+</code></p>
 
 <p>D. Configure Terminal</p>
 
-<p>  General</p>
-
-<pre><code>"Inconsolata 11" as font
+<p><code>  
+General tab
+"Inconsolata 11" as font
 Color: White on black  
-</code></pre>
+</code></p>
 
 <p>E. Install <a href="http://www.chromium.org/getting-involved/dev-channel">Chrome Dev Channel</a></p>
 
@@ -96,26 +106,30 @@ Color: White on black
 
 <p>  Of course, Chrome doesn't remember any userscripts that you installed, and so I had to reinsall the following userscripts:</p>
 
-<p>  <a href="http://userscripts.org/scripts/show/116888">Google Reader - Even More Compact Design (Nov 2011)</a>
-  <a href="http://userscripts.org/scripts/show/76653">O'Reilly Safari Minimalist Tweaked</a>
-  <a href="http://userscripts.org/scripts/show/114455">Resurrect Google Cache &amp; Related links</a>
-  <a href="http://userscripts.org/scripts/show/106671">Google Plus Right Side Bar Remover</a></p>
+<p><code>  
+[Google Reader - Even More Compact Design (Nov 2011)](http://userscripts.org/scripts/show/116888)
+[O'Reilly Safari Minimalist Tweaked](http://userscripts.org/scripts/show/76653)
+[Resurrect Google Cache &amp; Related links](http://userscripts.org/scripts/show/114455)
+[Google Plus Right Side Bar Remover](http://userscripts.org/scripts/show/106671)
+</code></p>
 
 <p>F. Install aptitude</p>
 
 <p>  This would come in handy to install stuff that needs aptitude rather than the default apt-get package manager.</p>
 
-<pre><code>sudo apt-get install aptitude
-</code></pre>
+<p><code>  
+sudo apt-get install aptitude
+</code></p>
 
 <p>G. Install Pinta (equivalent of Paint.net)</p>
 
 <p>  I am someone who takes a number of screenshots in a month for various things, and so not having the equivalent of Paint is not acceptable. I usually crop the screenshots and so I need a decent, basic editor. Enter <a href="http://www.ubuntugeek.com/pinta-paint-net-clone-for-linux.html#more-4476">Pinta</a></p>
 
-<pre><code>sudo add-apt-repository ppa:moonlight-team/pinta
+<p><code>  
+sudo add-apt-repository ppa:moonlight-team/pinta
 sudo apt-get update
 sudo aptitude install pinta
-</code></pre>
+</code></p>
 
 <p>H. Configure Reliance NetConnect</p>
 
@@ -143,40 +157,46 @@ sudo aptitude install pinta
 
 <p>  Note: From here on, the installation process was done based on a bunch of resources:</p>
 
-<ol>
-<li><p><a href="http://arunsark.wordpress.com/2011/02/25/installing-ror-in-ubuntu/">Installing RoR in Ubuntu</a> by my good friend and colleague, <a href="http://twitter.com/arunsark">Arun Vydianathan</a></p></li>
-<li><p>The excellent and free <a href="http://ruby.railstutorial.org/ruby-on-rails-tutorial-book#sec:up_and_running">Ruby on Rails Tutorial book</a></p></li>
-<li><p>Of course my previous post :)</p></li>
-</ol>
+<p>  <a href="http://arunsark.wordpress.com/2011/02/25/installing-ror-in-ubuntu/">Installing RoR in Ubuntu</a> by my good friend and colleague, <a href="http://twitter.com/arunsark">Arun Vydianathan</a></p>
 
+<p>  The excellent and free <a href="http://ruby.railstutorial.org/ruby-on-rails-tutorial-book#sec:up_and_running">Ruby on Rails Tutorial book</a></p>
+
+<p>  Of course my previous post :)</p>
 
 <p>++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++</p>
 
 <p>C. Install git</p>
 
-<p>  sudo apt-get install git-core</p>
+<p><code>  
+sudo apt-get install git-core
+</code></p>
 
 <p>D. Set up tab completion for git</p>
 
 <p>  I had backed up the file "contrib/completion/git-completion.bash" and so this was pretty painless - I just had to copy the file into my home (~) folder.</p>
 
-<pre><code>$ cd folder/having/git-completion.bash
-$ cp contrib/completion/git-completion.bash ~
+<p>```<br/>
+$ cd folder/having/git-completion.bash
+$ cp contrib/completion/git-completion.bash ~</p>
 
-# Open the .bashrc file for editing
-$ gvim ~/.bashrc 
+<h1>Open the .bashrc file for editing</h1>
 
-# NOW, Paste the contents from [this Rails tutorial page](http://ruby.railstutorial.org/bashrc) into the file.
+<p>$ gvim ~/.bashrc</p>
 
-# NEXT, run the following to source the bashrc file.
-$ . ~/.bashrc
-</code></pre>
+<h1>NOW, Paste the contents from <a href="http://ruby.railstutorial.org/bashrc">this Rails tutorial page</a> into the file.</h1>
+
+<h1>NEXT, run the following to source the bashrc file.</h1>
+
+<p>$ . ~/.bashrc
+```</p>
 
 <p>  If you don't have that file, you might have to download the latest git source. Please refer my previous installation post for more on this.</p>
 
 <p>E. Install curl</p>
 
-<p>  sudo apt-get install curl</p>
+<p><code>  
+sudo apt-get install curl
+</code></p>
 
 <p>F. Install Ruby Version Manager (RVM)</p>
 
@@ -184,13 +204,17 @@ $ . ~/.bashrc
 
 <p>G. Install Ruby</p>
 
-<p>  rvm install 1.9.3</p>
+<p><code>  
+rvm install 1.9.3
+</code></p>
 
 <p>  Create the required <a href="https://rvm.io/gemsets/">rvm gemsets</a> as per your requirement.</p>
 
 <p>H. Install the latest version of Rails</p>
 
-<p>  gem install rails</p>
+<p><code>  
+gem install rails
+</code></p>
 
 <p>  If you run into the strange bundle-install-fails-on-every-gem issue due to handshake problem (Gem::RemoteFetcher::FetchError), please refer either of these <a href="http://goo.gl/oW0ev">two</a> <a href="http://goo.gl/PGcJF">posts</a> for a solution.</p>
 
@@ -202,18 +226,23 @@ $ . ~/.bashrc
 
 <p>  For me, what is left to do is to install postgresql</p>
 
-<p>  # Install postgresql and deps</p>
+<p>```</p>
 
-<pre><code>sudo apt-get install postgresql libpq-dev
-gem install pg 
-</code></pre>
+<h1>Install postgresql and deps</h1>
+
+<p>sudo apt-get install postgresql libpq-dev
+gem install pg
+```</p>
 
 <p>  Of course, you would then have to then try to log into the postgresql db server, create the required users/roles etc. Google if you don't how to do it.</p>
 
 <p>J. Install "Open Terminal [Command-Prompt] Here"</p>
 
-<p>  This allows you to open a terminal from any path in the file manager Nautilus, and for me it is an indispensable tool. From <a href="http://superuser.com/questions/166407/how-to-open-a-menu-with-open-terminal-here-in-ubuntu-10-04-by-left-clicking-des">this SuperUser thread</a>:
-  sudo apt-get install nautilus-open-terminal</p>
+<p>  This allows you to open a terminal from any path in the file manager Nautilus, and for me it is an indispensable tool. From <a href="http://superuser.com/questions/166407/how-to-open-a-menu-with-open-terminal-here-in-ubuntu-10-04-by-left-clicking-des">this SuperUser thread</a>:</p>
+
+<p><code>  
+sudo apt-get install nautilus-open-terminal
+</code></p>
 
 <p>K. Install tmux</p>
 
@@ -221,57 +250,86 @@ gem install pg
 
 <p>  Here are <a href="http://goo.gl/Mr8tD">some</a> <a href="http://goo.gl/OFjS0">references</a> <a href="http://goo.gl/2lirZ">and a book</a> that would be useful to get started.</p>
 
-<p>  Of course, to make it even more easier, I use the <a href="https://github.com/aziz/tmuxinator">Tmuxinator gem</a>:</p>
+<p><code>  
+sudo apt-get install tmux
+</code></p>
 
-<pre><code>gem install tmuxinator
-</code></pre>
+<p>  Since the apt-get repository had an old version, I downloaded and compiled the source. But the above should get you started.</p>
+
+<p>  Of course, to make it even more easier, I use the <a href="https://github.com/aziz/tmuxinator">Tmuxinator gem</a> as well:</p>
+
+<p><code>  
+gem install tmuxinator
+</code></p>
 
 <p>L. Install the indicator-weather applet</p>
 
-<p>  sudo apt-get install indicator-weather</p>
+<p><code>  
+sudo apt-get install indicator-weather
+</code></p>
 
 <p>M. Install Ack, which is of course better than grep</p>
 
-<p>  sudo apt-get install ack-grep</p>
+<p><code>  
+sudo apt-get install ack-grep
+</code></p>
 
 <p>N. Install Kazam for recoring videos for screencasts.</p>
 
-<p>  sudo add-apt-repository ppa:kazam-team/stable-series
-  sudo apt-get install kazam</p>
+<p><code>  
+sudo add-apt-repository ppa:kazam-team/stable-series
+sudo apt-get install kazam
+</code></p>
 
 <p>O. Install xsane for the scanner</p>
 
-<p>  sudo apt-get install xsane</p>
+<p><code>  
+sudo apt-get install xsane
+</code></p>
 
 <p>P. Install VLC player</p>
 
-<p>  sudo apt-get install vlc vlc-plugin-pulse</p>
+<p><code>  
+sudo apt-get install vlc vlc-plugin-pulse
+</code></p>
 
 <p>Q. Install lo-menubar to make LibreOffice play nicely with Unity</p>
 
-<p>  sudo apt-get install lo-menubar</p>
+<p><code>  
+sudo apt-get install lo-menubar
+</code></p>
 
 <p>R. Install Nautilus Image converter to have a quick option to resize images from Nautilus</p>
 
-<p>  sudo apt-get install nautilus-image-converter</p>
+<p><code>  
+sudo apt-get install nautilus-image-converter
+</code></p>
 
 <p>S. Install xclip to use the clipboard from the commandline</p>
 
-<p>  sudo apt-get install xclip</p>
+<p><code>  
+sudo apt-get install xclip
+</code></p>
 
 <p>T. Install ImageMagick</p>
 
-<p>  sudo apt-get install libqt4-dev
-  sudo apt-get install libmagick libmagickcore-dev
-  sudo apt-get install libmagickwand-dev</p>
+<p><code>  
+sudo apt-get install libqt4-dev
+sudo apt-get install libmagick libmagickcore-dev
+sudo apt-get install libmagickwand-dev
+</code></p>
 
 <p>U. Install Exuberant Ctags (for Vim)</p>
 
-<p>  sudo apt-get install exuberant-ctags</p>
+<p><code>  
+sudo apt-get install exuberant-ctags
+</code></p>
 
 <p>V. Install MyUnity to tweak Ubuntu.</p>
 
-<p>  sudo apt-get install myunity</p>
+<p><code>  
+sudo apt-get install myunity
+</code></p>
 
 <p>  The best part for me is that I can easily tweak the unity launcher bar from this.</p>
 
@@ -281,7 +339,9 @@ gem install pg
 
 <p>X. Install Compiz Config Settings Manager</p>
 
-<p>  sudo apt-get install compizconfig-settings-manager</p>
+<p><code>  
+sudo apt-get install compizconfig-settings-manager
+</code></p>
 
 <p>  This allows me to continue to use the Super(Windows key)+N combination to invert the monitor colors - an indispensable tool for reading using the browser.</p>
 
@@ -290,6 +350,8 @@ gem install pg
 <p>  Of course, my ideas about what constitutes my preferred configuration is bound to change over time, and so would the tools required to do the job. If I come across something great, I will try to update this post with that info.</p>
 
 <p>Thanks for reading and I hope at least some of it would have been useful for you.</p>
+
+<p>Update Thu, 03-May-11: Cleaned up the code snippets' layout.</p>
 ]]></content>
   </entry>
   
