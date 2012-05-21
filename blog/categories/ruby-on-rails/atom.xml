@@ -4,7 +4,7 @@
   <title><![CDATA[Category: ruby on rails | Protos Musings]]></title>
   <link href="http://protoiyer.github.com/blog/categories/ruby-on-rails/atom.xml" rel="self"/>
   <link href="http://protoiyer.github.com/"/>
-  <updated>2012-05-21T23:33:39+05:30</updated>
+  <updated>2012-05-22T00:13:30+05:30</updated>
   <id>http://protoiyer.github.com/</id>
   <author>
     <name><![CDATA[protoiyer]]></name>
@@ -373,6 +373,10 @@ gem install pg
 
 <p>  Of course, you would then have to then try to log into the postgresql db server, create the required users/roles etc. Refer <a href="http://xtremekforever.blogspot.in/2011/05/setup-rails-project-with-postgresql-on.html">this post</a> to install and set up postgresql.</p>
 
+<h5>J. Install node</h5>
+
+<p>  Since the package repository is not kept upto date, it is always better to install node from the source on a Ubuntu box. Refer the excellent gist: <a href="https://gist.github.com/579814">install node and npm without having to sudo</a> for instructions. I prefer <a href="http://goo.gl/HWYTZ">cloning the git repo</a> method.</p>
+
 <h2>Conclusion</h2>
 
 <p>  My ideas about what constitutes preferred configuration is bound to change over time, and so would the tools required to do the job. If I come across something great, I will try to update this post with that info.</p>
@@ -383,7 +387,7 @@ gem install pg
 
 <p><a name="update1" />Update# 1</a> - Thu, 03-May-12: Cleaned up the code snippets' layout.</p>
 
-<p><a name="update2" />Update# 2</a> - Mon, 21-May-12: Changed the pinta ppa to point to the correct one, changed reference to the package libmagick to imagemagick, moved items K-Z to the more appropriate top section, added info about AmbianceOneiric theme and changing the HUD keyboard shortcut, added reference to Meslo and mapping the Caps Lock to act as the Control key.</p>
+<p><a name="update2" />Update# 2</a> - Mon, 21-May-12: Changed the pinta ppa to point to the correct one, changed reference to the package libmagick to imagemagick, moved items K-Z to the more appropriate top section, added info about AmbianceOneiric theme and changing the HUD keyboard shortcut, added reference to Meslo and mapping the Caps Lock to act as the Control key. Added a note about installing node.js.</p>
 ]]></content>
   </entry>
   
