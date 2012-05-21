@@ -395,7 +395,7 @@ gem install pg
 
 ##### J. Install node
 
-  Since the package repository is not kept upto date, it is always better to install node from the source on a Ubuntu box. Refer the excellent gist: [install node and npm without having to sudo](https://gist.github.com/579814) for instructions. I prefer [cloning the git repo](http://goo.gl/HWYTZ) method.
+  Since the package repository is not kept upto date, it is always better to install node from the source on a Ubuntu box. Refer the excellent gist: [install node and npm without having to sudo](https://gist.github.com/579814) for instructions. I prefer [cloning the git repo](http://goo.gl/HWYTZ) method, and one can safely ignore line numbers 15-18 that is for installing npm. This is so since npm is bundled along with node that we installed following line numbers 1-14 of that gist.
 
 
 Conclusion
