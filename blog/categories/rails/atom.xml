@@ -4,7 +4,7 @@
   <title><![CDATA[Category: rails | Protos Musings]]></title>
   <link href="http://protoiyer.github.com/blog/categories/rails/atom.xml" rel="self"/>
   <link href="http://protoiyer.github.com/"/>
-  <updated>2012-05-22T00:13:30+05:30</updated>
+  <updated>2012-05-22T00:25:40+05:30</updated>
   <id>http://protoiyer.github.com/</id>
   <author>
     <name><![CDATA[protoiyer]]></name>
@@ -375,7 +375,7 @@ gem install pg
 
 <h5>J. Install node</h5>
 
-<p>  Since the package repository is not kept upto date, it is always better to install node from the source on a Ubuntu box. Refer the excellent gist: <a href="https://gist.github.com/579814">install node and npm without having to sudo</a> for instructions. I prefer <a href="http://goo.gl/HWYTZ">cloning the git repo</a> method.</p>
+<p>  Since the package repository is not kept upto date, it is always better to install node from the source on a Ubuntu box. Refer the excellent gist: <a href="https://gist.github.com/579814">install node and npm without having to sudo</a> for instructions. I prefer <a href="http://goo.gl/HWYTZ">cloning the git repo</a> method, and one can safely ignore line numbers 15-18 that is for installing npm. This is so since npm is bundled along with node that we installed following line numbers 1-14 of that gist.</p>
 
 <h2>Conclusion</h2>
 
