@@ -282,7 +282,39 @@ sudo apt-get install compizconfig-settings-manager
   I wasn't aware till recently that the editors like emacs make heavy use of the hard to reach Control key for virutally every shortcut not because it was designed by people who didn't care, but because before the advent of x86 hardware, all keyboards had the Caps and Control keys swapped. Which means their decision (taken before the x86 days) to use the Control key makes a lot of sense. Luckily it is [pretty easy to remap the Caps Lock](http://www.emacswiki.org/emacs/MovingTheCtrlKey) to act as the Control key. Though it will take a little while for the change to sink in, after a week or so it would be pretty difficult to live without it!
 
 
- 
+##### AB. Replace gedit with vim as the default editor
+
+  One of the things I missed after upgrading 12.04 was the default availability of vim as an option when you right click a file to choose an application to open it with. Luckily the fix is simple and consists of two steps - (a) create a vim.desktop file to ensure vim is listed as an application when you right click (you would have to use "Open with Other Application" the first time to select vim from the list of available applications, and vim will be listed there only if the vim.desktop file is around) and (b) replace gedit with vim throughout the system as the default editor.
+
+  Please refer [these](http://askubuntu.com/a/97696/61876) [two](http://askubuntu.com/a/73210/61876) [AskUbuntu](http://askubuntu.com/) answers for more.
+
+
+##### AC. Disable F1 in terminal vim
+
+  One of the problems I face using vim is that I keep hitting F1 instead of the Esc key, and that means closing the Help window that pops up every now and then. The fix is simple - disable the keyboard shortcut for Help. Refer [this post](http://goo.gl/zf33C) for more.
+
+
+##### AD. Get rid of the envelop icon in the system tray
+
+  For about a year I have been living with the never used envelop icon in the top menu corner. Follow the instructions from [this post](http://jonnyholroyd.x10.mx/?p=62) to get rid of it and a bit of unnecessary apps from the system including Empathy and Thunderbird. 
+
+
+##### AE. Configure Terminal to always open maximized
+
+  Since I work in terminal vim, it is important that when I press Ctrl+Alt+T, the terminal opens in the maximized state. Follow the instruction [found here](http://askubuntu.com/a/135108/61876) to use Compiz to open all the windows in maximized state.
+
+
+##### AF. Bring back Hibernate
+
+  Hibernate has been disabled by default in 12.04 (since Hibernate was not working consistently across hardware) but we can bring it back easily. Follow the instructions found in [this Ubuntu help post](https://help.ubuntu.com/12.04/ubuntu-help/power-hibernate.html).
+
+
+##### AG. Install Opera
+
+  There are some quirky Indian sites that works only with IE. For instance the payment page of Fame Cinemas simply refuses to work in either Chrome or Firefox, but it works in Opera! So having Opera in the system can help you at times. Install Opera following the instructions in [this page](http://www.wikihow.com/Install-Opera-Browser-Trough-Terminal-on-Ubuntu-11.10).
+
+
+
 Developer tools Setup
 =================
  
@@ -412,3 +444,5 @@ Revision History
 <a name="update1" />Update# 1</a> - Thu, 03-May-12: Cleaned up the code snippets' layout.  
 
 <a name="update2" />Update# 2</a> - Mon, 21-May-12: Changed the pinta ppa to point to the correct one, changed reference to the package libmagick to imagemagick, moved items K-Z to the more appropriate top section, added info about AmbianceOneiric theme and changing the HUD keyboard shortcut, added reference to Meslo and mapping the Caps Lock to act as the Control key. Added a note about installing node.js.   
+
+<a name="update3" />Update# 3</a> - Fri, 25-May-12: Added items AB - AG to further tweak the Ubuntu experience.
