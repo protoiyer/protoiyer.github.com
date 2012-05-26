@@ -376,6 +376,10 @@ $ . ~/.bashrc
 
   If you don't have that file, you might have to download the latest git source. Please refer my previous installation post for more on this.
 
+  Also, if you use bash aliases (for instance, type g instead of git and so on), then the default autocomplete won't work unless you type "git" in full. This can be pretty irritating if you are like me who use git many times a day and expect "g co", "g bd" and "g m" to have auto completion available to select the branch. By the way, in case you are wondering, those are the alias shortcuts for checking out an existing branch, deleting a branch and merging a branch respectively.   
+
+  In order to get bash alias and bash autocomplete to work with each other follow the instructions [found here](http://askubuntu.com/a/62098/61876).
+
   
 ##### E. Install curl
 
