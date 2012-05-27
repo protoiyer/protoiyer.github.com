@@ -313,6 +313,10 @@ sudo apt-get install compizconfig-settings-manager
 
   There are some quirky Indian sites that works only with IE. For instance the payment page of Fame Cinemas simply refuses to work in either Chrome or Firefox, but it works in Opera! So having Opera in the system can help you at times. Install Opera following the instructions in [this page](http://www.wikihow.com/Install-Opera-Browser-Trough-Terminal-on-Ubuntu-11.10).
 
+##### AH. Install Skype
+
+  Though I am a huge fan of the simple and elegant Gmail chat, from time to time, I find myself talking to people who prefer to be on Skype. So having Skype on the box is pretty useful. It is better not to install Skype from the official download page and instead use the repos. To install using the repo, follow the instructions [at this page](https://help.ubuntu.com/community/Skype).
+
 
 
 Developer tools Setup
