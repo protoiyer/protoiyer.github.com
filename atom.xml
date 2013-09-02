@@ -4,7 +4,7 @@
   <title><![CDATA[Protos Musings]]></title>
   <link href="http://protoiyer.github.com/atom.xml" rel="self"/>
   <link href="http://protoiyer.github.com/"/>
-  <updated>2012-05-27T13:31:20+05:30</updated>
+  <updated>2013-09-03T00:46:07+05:30</updated>
   <id>http://protoiyer.github.com/</id>
   <author>
     <name><![CDATA[protoiyer]]></name>
@@ -12,6 +12,27 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Older posts on Programming]]></title>
+    <link href="http://protoiyer.github.com/blog/2013/09/03/older-posts-on-programming/"/>
+    <updated>2013-09-03T00:00:00+05:30</updated>
+    <id>http://protoiyer.github.com/blog/2013/09/03/older-posts-on-programming</id>
+    <content type="html"><![CDATA[<p>I started blogging on the excellent <a href="http://wordpress.com/">wordpress</a> site almost 8 years back, and I used to post general musings almost weekly. In between, I also wrote some much appreciated (by friends and colleagues, that is) posts on programming.</p>
+
+<p>Later, some time in 2011, I fell for the convenience of &#8220;publishing posts via emails&#8221; feature of <a href="http://en.wikipedia.org/wiki/Posterous">Posterous</a> and wrote a few posts there. Posterous, of course, shut down (taking my posts along with it though I have the backup) and I will have to republish them again to resurrect those posts.</p>
+
+<p>And then finally, I fell in love with the simplicity and elegance of <a href="http://octopress.org/">Octopress</a>, and have been using <a href="http://pages.github.com/">Github Pages</a> to host my blog (that you are reading now).</p>
+
+<p>Though I haven&#8217;t been posting regularly off late, I thought it would be pertinent to link back to those old programming posts of mine, just to ensure there is a single point of access to all my technical writings. So, here goes:</p>
+
+<p><a href="http://protoiyer.wordpress.com/category/programming/">Programming archive on Wordpress</a></p>
+
+<p>Programming archive on Posterous: will republish (maybe here itself) and add link(s)</p>
+
+<p>That is it for now. You can find me on <a href="https://twitter.com/protoiyer">Twitter</a> as well where I tend to post a tad more frequently on all kinds of topics.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Setting up my Linux box and Ruby on Rails - Ubuntu 12.04 edition]]></title>
